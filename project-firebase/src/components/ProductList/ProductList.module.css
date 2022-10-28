@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.addProductContainer {
+  display: flex;
+}
+
+.addProductContainer input {
+  width: 90%;
+  border-radius: 8px;
+  border: 1px black solid;
+  outline: none;
+  height: 20px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.addProductContainer button {
+  width: 150px;
+  height: 25px;
+  border: 0.5px black solid;
+  border-radius: 8px;
+  background-color: #FED8B1;
+  cursor: pointer;
+  align-self: center;
+}
+
+.addProductContainer button:hover {
+  background-color: orange;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}

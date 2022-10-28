@@ -1,0 +1,29 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#414141, #000000);
+}
+
+.header {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.logoutBtn {
+  width: 150px;
+  height: 25px;
+  border: 0.5px black solid;
+  border-radius: 8px;
+  background-color: #FED8B1;
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  background-color: orange;
+}
